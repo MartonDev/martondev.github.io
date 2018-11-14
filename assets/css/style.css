@@ -1,0 +1,65 @@
+body {
+
+  margin: 0;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../img/bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "Google Sans","Roboto",Arial,Helvetica,sans-serif;
+  font-weight: normal;
+
+}
+
+.loadedAnimation {
+
+  width: 200vw;
+  height: 200vw;
+  opacity: 0;
+  border-radius: 100%;
+  background-color: #8c2cd6;
+  position: fixed;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: load .7s;
+
+}
+
+.main {
+
+  padding: 50px;
+
+}
+
+.name {
+
+  color: #fff;
+  font-size: 35px;
+  font-weight: 400;
+  margin: 25px;
+
+}
+
+@keyframes load {
+
+  from {
+
+    width: 1px;
+    height: 1px;
+    opacity: 1;
+
+  }
+
+  to {
+
+    width: 200vw;
+    height: 200vw;
+    opacity: 0.1;
+
+  }
+
+}
