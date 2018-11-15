@@ -44,6 +44,55 @@ body {
 
 }
 
+p {
+
+  color: #fff;
+  font-weight: 400;
+  font-size: 22px;
+  margin-left: 25px;
+
+}
+
+.languages {
+
+  padding: 25px;
+
+}
+
+.languages .lang {
+
+  background-color: rgba(140, 44, 214, 0.5);
+  padding: 12px;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 15px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  transition: box-shadow .3s;
+  -webkit-transition: -webkit-box-shadow .3s;
+
+}
+
+.languages .lang:hover {
+
+  -webkit-box-shadow: 10px 10px 133px -28px rgba(140,44,214,1);
+  -moz-box-shadow: 10px 10px 133px -28px rgba(140,44,214,1);
+  box-shadow: 10px 10px 133px -28px rgba(140,44,214,1);
+  transition: box-shadow .3s;
+  -webkit-transition: -webkit-box-shadow .3s;
+
+}
+
+.languages .lang img {
+
+  width: 100px;
+  height: 100px;
+
+}
+
 @keyframes load {
 
   from {
