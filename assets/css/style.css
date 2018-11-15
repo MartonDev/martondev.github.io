@@ -93,6 +93,14 @@ p {
 
 }
 
+a {
+
+  color: #fff;
+  text-decoration: underline;
+  display: block;
+
+}
+
 @keyframes load {
 
   from {
