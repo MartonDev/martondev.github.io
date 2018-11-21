@@ -10,6 +10,7 @@ body {
   background-attachment: fixed;
   font-family: "Google Sans","Roboto",Arial,Helvetica,sans-serif;
   font-weight: normal;
+  overflow-x: hidden;
 
 }
 
@@ -53,7 +54,7 @@ p {
 
 }
 
-.languages {
+.languages, .projects {
 
   padding: 25px;
 
@@ -98,6 +99,53 @@ a {
   color: #fff;
   text-decoration: underline;
   display: block;
+
+}
+
+.projects .project {
+
+  background-color: rgba(140, 44, 214, 0.5);
+  padding: 12px;
+  cursor: pointer;
+  width: 320px;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  border-radius: 15px;
+  margin-right: 20px;
+  font-size: 22px;
+  margin-bottom: 20px;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  transition: box-shadow .3s;
+  -webkit-transition: -webkit-box-shadow .3s;
+
+}
+
+.projects .project p {
+
+  font-size: 17px;
+  margin-left: 0;
+  margin-bottom: auto;
+
+}
+
+.projects .project:hover {
+
+  -webkit-box-shadow: 10px 10px 133px -28px rgba(140,44,214,1);
+  -moz-box-shadow: 10px 10px 133px -28px rgba(140,44,214,1);
+  box-shadow: 10px 10px 133px -28px rgba(140,44,214,1);
+  transition: box-shadow .3s;
+  -webkit-transition: -webkit-box-shadow .3s;
+
+}
+
+.seperator {
+
+  width: 20px;
+  height: 10px;
+  display: inline-block;
 
 }
 
