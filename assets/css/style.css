@@ -149,6 +149,16 @@ a {
 
 }
 
+@media screen and (max-width: 790px) {
+
+  .projects .project {
+
+    width: 80%;
+
+  }
+
+}
+
 @keyframes load {
 
   from {
