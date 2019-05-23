@@ -46,6 +46,9 @@ jQuery(function($) {
 
       }
 
+      Waves.attach(".project");
+      Waves.init();
+
     });
 
   });
