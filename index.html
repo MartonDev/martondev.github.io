@@ -5,68 +5,67 @@
 
     <title>Marton Lederer</title>
 
-    <link rel="shortcut icon" type="image/png" href="assets/img/profile.png"/>
+    <link rel="shortcut icon" type="image/png" href="assets/img/icon.png"/>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#8c2cd6">
     <meta name="description" content="Web developer">
 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assets/js/waves.min.js"></script>
 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" href="assets/css/waves.min.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
-
-    <script src="assets/js/main.js"></script>
 
   </head>
 
   <body>
 
-    <div class="main">
+    <div class="profile">
 
-      <h1 class="name">Marton Lederer</h1>
+      <img src="assets/img/icon.png" alt="profile-picture">
+      <h1>Marton Lederer</h1>
 
-      <p>A freelance web developer</p>
+      <div class="menu">
 
-      <p>I am 15 years old, I started coding in 2015. <br />I am a big fan of Material Design by Google.</p>
+        <a class="active waves" section="#home">Home</a>
+        <a class="waves" section="#projects">Projects</a>
+        <a class="waves" section="#contact">Contact</a>
 
-      <div class="languages">
-
-        <div class="lang">
-
-          <img src="assets/img/php.png" />
-
-        </div>
-
-        <div class="lang">
-
-          <img src="assets/img/html.png" />
-
-        </div>
-
-        <div class="lang">
-
-          <img src="assets/img/js.png" />
-
-        </div>
-
-        <div class="lang">
-
-          <img src="assets/img/css.png" />
-
-        </div>
-
-        <a target="_blank" href="https://github.com/MartonDev">GitHub</a>
-        <a href="mailto:martondeveloper@gmail.com">martondeveloper@gmail.com</a>
+        <span class="marker"></span>
 
       </div>
 
-      <p>Projects</p>
+      <div id="home" class="section active">
 
-      <div class="projects"></div>
+        <h1>About me<span></span></h1>
+        <p>My name is Marton Lederer and I am a web developer. I am 16 years old, and I'm from Hungary. My friends often call me Marci. I am a big fan of Google's Material Design 2. I prefer working on front-end, and designs, but I also do backend. My favorite languages are PHP and JS. <br />My hobbies are programming, reading and playing the guitar. I love the musics of the 60s, 70s, 80s and 90s. If you want to take a look at my Spotify playlist, click <a href="https://open.spotify.com/user/tpzvc3k79b9sg5ctroa5bing0/playlist/7jez9udBHvzv0cJ9nPYOXe?si=2mW7m0YKTbegWAGatlG9gA" target="_blank">here</a>!</p>
+
+      </div>
+
+      <div id="projects" class="section">
+
+        <h1>Projects on GitHub<span></span></h1>
+
+      </div>
+
+      <div id="contact" class="section">
+
+        <h1>Contact me<span></span></h1>
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=martondeveloper@gmail.com" target="_blank"><i class="material-icons">email</i>martondeveloper@gmail.com</a>
+        <a href="https://youtube.com/c/MartonDev" target="_blank">MartonDev on YouTube</a>
+        <a href="https://twitter.com/marton_dev" target="_blank">Marton on Twitter</a>
+        <a href="https://github.com/MartonDev">Marton on GitHub</a>
+        <br>
+        Copyright (c) 2019 Marton Lederer
+
+      </div>
 
     </div>
+
+    <script src="assets/js/scroll.js"></script>
+    <script src="assets/js/main.js"></script>
 
   </body>
 
