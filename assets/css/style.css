@@ -113,7 +113,8 @@ h1 {
 
 .menu a .waves-ripple {
 
-  background-color: rgba(26, 115, 232, 0.4);
+  background-color: rgba(26, 115, 232, 0.56);
+  background: rgba(26, 115, 232, 0.56);
 
 }
 
@@ -216,5 +217,16 @@ h1 {
 #contact.section a {
 
   display: block;
+
+}
+
+@media screen and (max-width: 790px) {
+
+  .menu {
+
+    left: 25%;
+    transform: translate(0%);
+
+  }
 
 }
