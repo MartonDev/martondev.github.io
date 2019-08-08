@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: lederer.hu
+Token: eae92b62e69fc379ff16b1f86cc4d25d8af653857aa8bdd55758e162e6b60bf1
