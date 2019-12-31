@@ -220,6 +220,16 @@ h1 {
 
 }
 
+#contact.section a img {
+
+  display: inline-block;
+  margin: 0 5px 0 0;
+  width: 18px;
+  height: 18px;
+  vertical-align: middle;
+
+}
+
 @media screen and (max-width: 790px) {
 
   .menu {
